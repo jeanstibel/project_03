@@ -10,19 +10,23 @@ This project implements a document processing system that can answer questions a
 **1.Document Processing:**
 Extracts text from PDF, Word, and plain text files
 Handles multi-page documents seamlessly
+
 **2.Question Answering:**
 Uses DistilBERT model fine-tuned on SQuAD dataset
 Provides answers with confidence scores
 Shows answer location within the document
+
 **3.Summarization:**
 Utilizes Facebook's BART-large-CNN model
 Generates concise summaries (30-150 words)
 Preserves key information from documents
+
 **4.User Interface:**
 
 Intuitive Gradio web interface
 o	Supports simultaneous question answering and summarization
 o	Shows detailed output with confidence metrics
+
 Technical Implementation
 Core Components
 1.	Text Extraction:
