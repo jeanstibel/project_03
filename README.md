@@ -89,7 +89,6 @@ This project implements a document processing system that can answer questions a
 **2. Performance Improvements:**
 - Model quantization for faster inference
 - Batch processing capabilities
-- Asynchronous processing
 
 **3. User Experience:**
 - Progress indicators
@@ -99,3 +98,27 @@ This project implements a document processing system that can answer questions a
 ## Conclusion
 This Document Question Answering & Summarization System provides a powerful yet accessible tool for extracting information from documents. By combining state-of-the-art NLP models with a simple interface, it makes document analysis accessible to non-technical users while offering customization options for more advanced requirements.
 The project demonstrates how modern NLP can be applied to practical document processing tasks, and serves as a foundation for more specialized document analysis applications.
+
+### References
+- https://seqlegal.com/free-legal-documents (for legal free templates)
+- https://huggingface.co/distilbert/distilbert-base-cased-distilled-squad
+- ChatGPT for creation of examples of legal documents
+- https://www.sfgov.org/adultprobation/sites/default/files/P-600%20Contract%20Sample%20post%20on%20website2.pdf
+
+
+
+
+## Notes:
+### Uses DistilBERT fine-tuned on SQuAD
+
+**DistilBERT:** 
+    DistilBERT is a lightweight and faster version of BERT, a popular natural language processing model. It achieves similar performance to BERT while being significantly smaller and faster, making it suitable for various applications.
+
+**Fine-tuning:** 
+    Fine-tuning is a process where a pre-trained model, like DistilBERT, is further trained on a specific dataset and task. In this case, DistilBERT is fine-tuned on the SQuAD dataset, which is a collection of questions with corresponding answers and context. 
+
+**SQuAD (Stanford Question Answering Dataset):** 
+    SQuAD is a widely used dataset for training and evaluating question answering models. It consists of questions about given Wikipedia articles, with the answers extracted as spans of text from the article. 
+**Benefits of fine-tuning:** 
+
+    By fine-tuning DistilBERT on SQuAD, the model becomes more adept at understanding the relationship between questions and their answers within a context. This results in improved performance on question answering tasks and can lead to more accurate and reliable answers. 
