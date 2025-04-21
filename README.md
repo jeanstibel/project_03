@@ -3,7 +3,7 @@
 ## Document Question Answering & Summarization System
 
 ### Project Overview
-This project implements a document processing system that can answer questions about uploaded documents and generate summaries. The system supports PDF, Word (.docx), and plain text (.txt) files, using state-of-the-art natural language processing models to provide accurate answers and concise summaries.
+This project implements a document processing system that can answer questions about uploaded documents and generate summaries. The system supports PDF, Word (.docx), and plain text (.txt) files, using natural language processing models to provide accurate answers and concise summaries.
 
 ### Key Features
 **1. Document Processing:**
