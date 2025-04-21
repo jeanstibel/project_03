@@ -109,7 +109,7 @@ The project demonstrates how modern NLP can be applied to practical document pro
 
 
 ## Notes:
-### Uses DistilBERT fine-tuned on SQuAD
+### Use of DistilBERT fine-tuned on SQuAD
 
 **DistilBERT:** 
     DistilBERT is a lightweight and faster version of BERT, a popular natural language processing model. It achieves similar performance to BERT while being significantly smaller and faster, making it suitable for various applications.
