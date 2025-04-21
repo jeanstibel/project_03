@@ -1,5 +1,4 @@
-# project_03
-project_03
+## Project_03
 
 ## Document Question Answering & Summarization System
 
@@ -26,20 +25,24 @@ This project implements a document processing system that can answer questions a
 - Supports simultaneous question answering and summarization
 - Shows detailed output with confidence metrics
 
-Technical Implementation
-Core Components
-1.	Text Extraction:
-o	PyPDF2 for PDF processing
-o	python-docx for Word document parsing
-o	Native Python file handling for text files
-2.	NLP Models:
-o	distilbert-base-cased-distilled-squad for question answering
-o	facebook/bart-large-cnn for summarization
-o	Both models run locally after initial download
-3.	Web Interface:
-o	Gradio for simple web app creation
-o	File upload widget with format validation
-o	Configurable options for question and summary
+### Technical Implementation
+
+## Core Components
+**1. Text Extraction:**
+- PyPDF2 for PDF processing
+- python-docx for Word document parsing
+- Native Python file handling for text files
+
+**2. NLP Models:**
+- distilbert-base-cased-distilled-squad for question answering
+- facebook/bart-large-cnn for summarization
+- Both models run locally after initial download
+
+**3. Web Interface:**
+- Gradio for simple web app creation
+- File upload widget with format validation
+- Configurable options for question and summary
+
 Key Functions
 •	extract_text_from_file(): Handles document parsing for different formats
 •	process_document(): Orchestrates QA and summarization tasks
