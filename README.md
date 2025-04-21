@@ -25,9 +25,9 @@ This project implements a document processing system that can answer questions a
 - Supports simultaneous question answering and summarization
 - Shows detailed output with confidence metrics
 
-### Technical Implementation
+## Technical Implementation
 
-## Core Components
+### Core Components
 **1. Text Extraction:**
 - PyPDF2 for PDF processing
 - python-docx for Word document parsing
@@ -43,54 +43,59 @@ This project implements a document processing system that can answer questions a
 - File upload widget with format validation
 - Configurable options for question and summary
 
-Key Functions
-•	extract_text_from_file(): Handles document parsing for different formats
-•	process_document(): Orchestrates QA and summarization tasks
-•	Gradio interface: Provides user interaction layer
+### Key Functions
+- extract_text_from_file(): Handles document parsing for different formats
+- process_document(): Orchestrates QA and summarization tasks
+- Gradio interface: Provides user interaction layer
 
-System Requirements
-•	Python 3.7+
-•	Required packages:
-o	transformers
-o	torch
-o	gradio
-o	PyPDF2
-o	python-docx
-Usage Guide
+### System Requirements
+- Python 3.7+
+- Required packages:
+- transformers
+- torch
+- gradio
+- PyPDF2
+- python-docx
+
+### Usage Guide
 1.	Launch the application
 2.	Upload a document (PDF, Word, or text file)
 3.	Optionally enter a question about the document
 4.	Check the "Generate Summary" box if you want a summary
 5.	Click "Submit" to process the document
 6.	View results in the output box
-Performance Considerations
-•	Initial model loading may take time (models are downloaded on first run)
-•	Large documents may take longer to process
-•	For production use, consider:
-o	Adding document size limits
-o	Implementing caching
-o	Using GPU acceleration
-o	Setting up a queuing system for multiple requests
-Limitations
-•	Current version is a demo with basic functionality
-•	Accuracy depends on the pre-trained models
-•	Very large documents may exceed memory limits
-•	Complex formatting may not be preserved in text extraction
 
-Future Enhancements
-1.	Advanced Features:
-o	Document chunking for large files
-o	Multiple question processing
-o	Customizable summary length
-o	Support for more file formats (e.g., PPT, HTML)
-2.	Performance Improvements:
-o	Model quantization for faster inference
-o	Batch processing capabilities
-o	Asynchronous processing
-3.	User Experience:
-o	Progress indicators
-o	History of previous queries
-o	Export functionality for results
-Conclusion
+### Performance Considerations
+- Initial model loading may take time (models are downloaded on first run)
+- Large documents may take longer to process
+- For production use, consider:
+        - Adding document size limits
+        - Implementing caching
+        - Using GPU acceleration
+        - Setting up a queuing system for multiple requests
+
+### Limitations
+- Current version is a demo with basic functionality
+- Accuracy depends on the pre-trained models
+- Very large documents may exceed memory limits
+- Complex formatting may not be preserved in text extraction
+
+### Future Enhancements
+**1. Advanced Features:**
+- Document chunking for large files
+- Multiple question processing
+- Support for more file formats (e.g., PPT, HTML)
+
+**2. Performance Improvements:**
+- Model quantization for faster inference
+- Batch processing capabilities
+- Asynchronous processing
+
+**3. User Experience:**
+- Progress indicators
+- History of previous queries
+- Export functionality for results
+
+## Conclusion
 This Document Question Answering & Summarization System provides a powerful yet accessible tool for extracting information from documents. By combining state-of-the-art NLP models with a simple interface, it makes document analysis accessible to non-technical users while offering customization options for more advanced requirements.
 The project demonstrates how modern NLP can be applied to practical document processing tasks, and serves as a foundation for more specialized document analysis applications.
