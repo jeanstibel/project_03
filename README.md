@@ -118,7 +118,7 @@ The project demonstrates how modern NLP can be applied to practical document pro
     Fine-tuning is a process where a pre-trained model, like DistilBERT, is further trained on a specific dataset and task. In this case, DistilBERT is fine-tuned on the SQuAD dataset, which is a collection of questions with corresponding answers and context. 
 
 **SQuAD (Stanford Question Answering Dataset):** 
-    SQuAD is a widely used dataset for training and evaluating question answering models. It consists of questions about given Wikipedia articles, with the answers extracted as spans of text from the article. 
-**Benefits of fine-tuning:** 
+    SQuAD is a widely used dataset for training and evaluating question answering models. It consists of questions about given Wikipedia articles, with the answers extracted as spans of text from the article.
 
+**Benefits of fine-tuning:** 
     By fine-tuning DistilBERT on SQuAD, the model becomes more adept at understanding the relationship between questions and their answers within a context. This results in improved performance on question answering tasks and can lead to more accurate and reliable answers. 
