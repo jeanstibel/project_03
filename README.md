@@ -85,6 +85,7 @@ This project implements a document processing system that can answer questions a
 - Document chunking for large files
 - Multiple question processing
 - Support for more file formats (e.g., PPT, HTML)
+- Youtube
 
 **2. Performance Improvements:**
 - Model quantization for faster inference
